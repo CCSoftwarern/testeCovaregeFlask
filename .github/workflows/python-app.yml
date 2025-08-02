@@ -27,3 +27,7 @@ jobs:
     - name: Executar testes
       run: |
         coverage run -m pytest
+
+    - name: Gerar relatório de cobertura
+      run: |
+        coverage report -m
