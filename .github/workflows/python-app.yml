@@ -26,4 +26,4 @@ jobs:
 
     - name: Executar testes
       run: |
-        pytest
+        coverage run -m pytest
