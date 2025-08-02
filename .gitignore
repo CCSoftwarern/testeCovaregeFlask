@@ -1,0 +1,14 @@
+# Ignorar ambiente virtual
+.venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Relatórios de cobertura
+htmlcov/
+.coverage
+
+# Pastas de testes temporários
+.cache/
+pytest_cache/
